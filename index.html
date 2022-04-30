@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        /* background-color: grey; */
+        width: 600px;
+        height: 400px;
+        margin: auto;
+        display: flex;
+    }
+    .box {
+        flex: 1;
+    }
+
+    /* .one {
+        background-color: green;
+    }
+
+    .two {
+        background-color: black;
+    }
+
+    .three {
+        background-color: blue;
+    } */
+
+@media only screen and (max-width: 600px) {
+  /* body {
+    background-color: lightblue;
+  } */
+
+  .container {
+    flex-direction: column;
+    width: 95%;
+  }
+}
+
+
+</style>
+<body>
+    <div class="container">
+        <div class="box one">1
+            <img src="" alt="">
+            <p>hej hej</p>
+        </div>
+        <div class="box two">2</div>
+        <div class="box three">3</div>    
+    </div>
+</body>
+</html>
